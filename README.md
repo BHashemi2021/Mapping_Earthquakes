@@ -1,2 +1,2 @@
-# Mapping_Earthquakes2
-Repository for mapping earthquakes.
+# Mapping Earthquakes 
+A Repository for Mapping Earthquakes across the World.
