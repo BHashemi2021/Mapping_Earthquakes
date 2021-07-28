@@ -59,8 +59,12 @@ let map = L.map('mapid', {
 
 
 // Pass our map layers into our layers control and add the layers control to the map.
-L.control.layers(baseMaps).addTo(map);
+// L.control.layers(baseMaps).addTo(map);
 
+
+// Then we add a control to the map that will allow the user to change
+// which layers are visible.
+L.control.layers(baseMaps, overlays).addTo(map);
 
 
 // Accessing the Toronto neighborhoods GeoJSON URL.
